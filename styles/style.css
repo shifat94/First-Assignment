@@ -388,6 +388,38 @@
                 background: rgb(255, 255, 255);
                 border: none;
                 cursor: pointer;
-                }
+            }
 
 
+            .footer{
+                width: 1440px;
+                height: 100px;
+                padding: 32px 150px 32px 150px;
+                
+            }
+
+            .footer-section{
+
+                width: 1000px;
+                height: 36px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 32px 0px;
+                
+            }
+
+            .footer-title{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23px;
+            }
+
+            .footer-img{
+                width: 157.01px;
+                height: 36px;
+                display: flex;
+                justify-content: space-around;
+                
+             }
+            
