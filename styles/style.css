@@ -2,7 +2,12 @@
 
 /* font-family: "Azeret Mono", monospace; */
 
+
+
+
 /* Header section Start */
+
+
 
 /* Nav Section  */
 .nav-styles{
@@ -40,21 +45,33 @@
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    
 }
 .hero-section{
-    width: 998px;
-    height: 582px;
+    max-width: 998px;
+    max-height: 582px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
+.hero-section-img{
+
+    width: 240.28px;
+    height: 240px;
+    margin-top: 150px;
+    
 }
 .hero-section-title{
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
     text-align: center;
+    
+    
 }
 .hero-section-sub-title{
     font-size: 16px;
@@ -81,7 +98,72 @@
 
 /* Header section End */
 
-    
+
+/* Why Web Development part start */
+
+#why-development{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title{
+    font-size: 32px;
+   font-weight: 800;
+   line-height: 37px;
+   text-align: center;
+}
+
+.title-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.first-box{
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+}
+
+.first-box-section{
+    width: 850px;
+    height: 240px;
+     align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-box-title{
+
+    font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+
+}
+
+.first-box-description{
+    font-size: 16px;
+   font-weight: 400;
+   ine-height: 26px;
+   
+}
+    .box-btn{
+        width: 150px;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
+    }
     
     
 
