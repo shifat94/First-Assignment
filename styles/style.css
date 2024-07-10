@@ -165,5 +165,37 @@
         opacity: 0.7;
     }
     
-    
+    /* Why Web Development part end */
 
+    /* My inspairation part start */
+
+    .my-inspaire{
+        width: 1140px;
+        height: 777px;
+        /* border: 2px solid red; */
+        margin: 0 auto;
+    }
+
+    .my-inspaire-title{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        text-align: center;
+    }
+ .my-inspaire-sub-title{
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   text-align: center;
+ }
+
+ .video-section{
+
+    padding: 32px;
+    
+    
+ }
+ .inspaire-video{
+
+    border-radius: 16px;
+    }
