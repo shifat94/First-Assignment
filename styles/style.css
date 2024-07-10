@@ -172,17 +172,22 @@
     .my-inspaire{
         width: 1140px;
         height: 777px;
-        /* border: 2px solid red; */
         margin: 0 auto;
     }
 
     .my-inspaire-title{
+        width: 852px;
+        height: 39px;
+        margin: 0 auto;
         font-size: 32px;
         font-weight: 800;
         line-height: 37px;
         text-align: center;
     }
  .my-inspaire-sub-title{
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
     font-size: 16px;
    font-weight: 400;
    line-height: 26px;
@@ -199,3 +204,105 @@
 
     border-radius: 16px;
     }
+ /* My inspairation part end */
+
+ /* My Current Target part start  */
+
+
+ #target-section{
+    width: 1140px;
+   height: 463px;
+   margin: 0 auto;
+   
+   
+ }
+
+ #target-section-title{
+    width: 852px;
+    height: 39px;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+     margin: 0 auto;
+
+
+ }
+
+ #target-section-sub-title{
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+ }
+
+.main-box{
+
+    display: flex;
+    justify-content: space-around;
+}
+ #target-box{
+    width: 240px;
+    height: 200px;
+    /* border: 2px solid red;  */
+    padding: 40px;
+    /* margin: 0px 24px; */
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+ }
+
+ #target-sub-box{
+    width: 210px;
+    height: 190px;
+    /* border: 2px solid red; */
+    /* margin:  0px auto; */
+ }
+
+ #target-box-title{
+
+    font-size: 15px;
+  font-weight: 800;
+   line-height: 30px;
+   text-align: left;
+
+ }
+
+ #target-box-subtitle{
+
+    font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+ }
+
+ #box-btn{
+
+    font-size: 15px;
+   font-weight: 700;
+  line-height: 15px;
+  text-decoration: underline;
+
+ }
+
+ #secend-box{
+    width: 240px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);;
+ }
+
+ #third-box{
+    width: 240px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+ }
